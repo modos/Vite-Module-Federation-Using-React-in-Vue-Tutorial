@@ -12,7 +12,6 @@ export default defineConfig({
             exposes: {
                 './Button': './src/Button.jsx'
             },
-            shared: ['react']
         })
     ],
     build: {
